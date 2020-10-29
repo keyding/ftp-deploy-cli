@@ -1,0 +1,28 @@
+{
+  "name": "ftp-deploy-cli",
+  "version": "1.0.2",
+  "description": "FTP deploy for Node.js",
+  "main": "./bin/index.js",
+  "bin": {
+    "deploy": "./bin/index.js"
+  },
+  "private": false,
+  "author": "pineapplejs",
+  "keywords": [
+    "ftp",
+    "deploy",
+    "cli"
+  ],
+  "files": [
+    "bin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "basic-ftp": "^4.6.2",
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "core-js": "^3.6.5",
+    "inquirer": "^7.3.3",
+    "signale": "^1.4.0"
+  }
+}
